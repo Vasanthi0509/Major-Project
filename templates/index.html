@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vision Assistance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Advanced Object Detection for Visually Impaired</h1>
+    <div class="container">
+        <img src="{{ url_for('video_feed') }}" width="720px">
+    </div>
+</body>
+</html>

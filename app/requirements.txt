@@ -1,0 +1,7 @@
+flask==3.0.0
+ultralytics==8.1.0
+opencv-python
+numpy
+pyttsx3
+torch
+torchvision

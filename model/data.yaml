@@ -1,0 +1,18 @@
+# Dataset root directory (relative to model folder)
+path: ../dataset
+
+# Training and validation image folders
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 6
+
+# Class names (CHANGE ONLY if your dataset labels are different)
+names:
+  0: person
+  1: book
+  2: bottle
+  3: chair
+  4: mobile
+  5: pen
